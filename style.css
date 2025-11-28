@@ -1,0 +1,90 @@
+*{
+    padding: 10px;
+    margin: 0px;
+}
+html{
+    background-color: rgb(213, 217, 247);
+    border: 7px solid rgb(1, 1, 66);
+}
+.container{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding: 0px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.image{
+    position: relative;
+    height: 45%;
+    width: 25%;
+    margin-top: 0px;
+    border-radius: 400px;
+    column-gap: 90px;
+}
+.intro{
+    color: rgb(0, 11, 95);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 20%;
+}
+#name{
+    font-size: 6.5ch;
+    font-weight:600;
+}
+#year{
+    font-size: 3.5ch;
+    font-weight:200;
+    text-align: right;
+    
+}
+h2{
+    padding: 0px;
+    font-size: 7.5ch;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+p{
+    padding: 0px;
+    margin-top: 40px;
+    font-weight: 100;;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3.2ch;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    margin-top: 40px;
+    margin-left: 20%;
+    font-weight: 300;
+    font-size: 4ch;
+}
+ul li{
+    font-size: 3ch;
+    margin-left: 20%;
+    
+}
+footer{
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 50px;
+    font-size: 2.5ch;
+}
+
+@media (max-width: 795px){
+    .container{
+        flex-direction: column;
+    }
+    .intro{
+        font-size: 1.4ch;
+        text-align: center;
+    }
+    #name{
+        text-align: center;
+    }
+    #year{
+        text-align: center;
+    }
+}
